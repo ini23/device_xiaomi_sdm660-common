@@ -434,6 +434,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     android.frameworks.sensorservice@1.0
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
