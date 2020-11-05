@@ -141,8 +141,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.max.previewfps=60 \
     ro.media.recorder-max-base-layer-fps=60
 
-
-
     PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera \
