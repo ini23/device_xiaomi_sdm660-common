@@ -28,3 +28,4 @@ allow system_server init:binder { transfer call };
 allow system_server proc:file { getattr  open  read };
 
 allow system_server exported_camera_prop:file { read open getattr };
+dontaudit system_server sysfs:file { read open getattr };
