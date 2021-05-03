@@ -315,3 +315,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.dha_th_rate=2.3 \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
+
+# IORap
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.iorapd.enable=true \
+    iorapd.perfetto.enable=true \
+    iorapd.readahead.enable=true
