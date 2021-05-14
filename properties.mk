@@ -257,65 +257,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=1
 
-# ZenTouch V12
-
-#ngentouch improve
-PRODUCT_PROPERTY_OVERRIDES += \
-    touch.pressure.scale=0.0001 \
-    touch.orientationAware=0 \
-    persist.sys.ui.hw=1 \
-    touch.size.calibration=geometric \
-    touch.size.scale=1 \
-    touch.size.bias=0 \
-    touch.size.isSummed=0 \
-    persist.device_config.runtime_native.usap_pool_enabled=true \
-    touch.orientation.calibration=interpolated \
-    touch.distance.calibration=area \
-    touch.distance.scale=0 \
-    touch.coverage.calibration=box \
-    touch.pressure.scale=0 \
-    touch.gestureMode=spots \
-    MultitouchMinDistance=1px \
-    MultitouchSettleInterval=0.1ms \
-    SurfaceOrientation=0 \
-    TapInterval=0.1ms \
-    TapDragInterval=0.1ms \
-    QuietInterval=0.1ms \
-    MovementSpeedRatio=0.8 \
-    TapSlop=1px \
-    persist.sys.scrollingcache=3
-
-#Improve sliding response
-PRODUCT_PROPERTY_OVERRIDES += \
-    windowsmgr.max_events_per_sec=90 \
-    view.scroll_friction=0 \
-    ro.min_pointer_dur=8 \
-    touch.deviceType=touchScreen
-
-#Improve global touch screen response
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=1 \
-    video.accelerate.hw=1 \
-    view.scroll_friction=0
-
-#Open the first-in-first-out interface thread
-PRODUCT_PROPERTY_OVERRIDES += \
-    sys.use_fifo_ui=1 \
-    pm.dexopt.bg-dexopt=speed-profile \
-    pm.dexopt.shared=speed
-
-# Better Ram
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.fha_enable=true \
-    ro.sys.fw.bg_apps_limit=32 \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
-
 # IORap
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.iorapd.enable=true \
