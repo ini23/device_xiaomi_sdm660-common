@@ -220,6 +220,10 @@ PRODUCT_PACKAGES += \
     qcom.fmradio.xml
 endif
 
+# Iorap
+PRODUCT_PACKAGES += \
+    iorap-app-startup-runner
+
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
