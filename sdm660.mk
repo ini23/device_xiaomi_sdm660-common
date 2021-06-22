@@ -39,8 +39,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/display \
     hardware/qcom/media \
-    hardware/qcom/media \
-    vendor/qcom/opensource/audio-hal/primary-ha
+    hardware/qcom/audio
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
