@@ -37,7 +37,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    hardware/qcom/display \
+    hardware/qcom/media \
+    hardware/qcom/media \
+    vendor/qcom/opensource/audio-hal/primary-ha
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -140,10 +143,8 @@ PRODUCT_COPY_FILES += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
-    com.dsi.ant.antradio_library
-
-PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+    antradio_app \
+    libantradio
 
 # Biometrics
 PRODUCT_PACKAGES += \
