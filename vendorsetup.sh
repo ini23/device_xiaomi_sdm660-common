@@ -6,8 +6,8 @@
 #rm -rf packages/apps/Settings
 #rm -rf frameworks/av
 
-# git clone
-#git clone https://github.com/SakilMondal/hardware_qcom-caf_msm8998_display hardware/qcom/display
+# git c one
+	git clone https://github.com/SakilMondal/hardware_qcom-caf_msm8998_display hardware/qcom/display
 #git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-18.1-caf-msm8998 hardware/qcom/audio
 #git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-msm8998 hardware/qcom/media
 ##git clone https://github.com/dotMod/android_frameworks_base -b dot11 frameworks/base
