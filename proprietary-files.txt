@@ -621,3 +621,15 @@ vendor/lib64/libwfdhdcpcp.so|a9f56d29d9243272ca73d564977022d3aef3b8e4
 # libdiaghal.so  
 system_ext/lib/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
+
+# QSEECOMD dependencies - redfin-user-11-RQ3A.210605.005-7349499-release-keys & coral-user-11-RQ3A.210605.005-7349499-release-keys
+vendor/lib/libops.so
+vendor/lib/libsecureui.so
+vendor/lib/libspl.so
+vendor/lib/libstagefrighthw.so
+vendor/lib64/deviceInfoServiceModule.so
+vendor/lib64/libops.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libspl.so
+vendor/lib64/libstagefrighthw.so
+
