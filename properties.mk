@@ -173,6 +173,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=9000 
     ro.surface_flinger.use_smart_90_for_video=true \
     ro.surface_flinger.wcg_composition_dataspace=143261696 \
+    ro.surface_flinger.use_color_management=true \
     ro.vendor.display.cabl=0 \
     vendor.display.disable_skip_validate=1 \
     vendor.display.enable_default_color_mode=1 \
