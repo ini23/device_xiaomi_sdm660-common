@@ -88,9 +88,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
-# Compile libhwui in performance mode
-HWUI_COMPILE_FOR_PERF := true
-
 # Display
 TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
