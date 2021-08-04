@@ -221,7 +221,7 @@ PRODUCT_PACKAGES += \
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_PACKAGES += \
-    FMRadio \
+    FM2 \
     libqcomfm_jni \
     qcom.fmradio \
     qcom.fmradio.xml
