@@ -25,4 +25,11 @@
   <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
   <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 
+    <!-- xd. About Phone -->
+    <string name="xd_device_name_summary">Redmi Note 5 Pro</string>
+    <string name="xd_chipset_type_summary">Qualcomm Snapdragon™ 636</string> 
+    <string name="xd_gpu_summary">Adreno 509</string>
+    <string name="xd_camera_mp_summary">12MP+5MP Dual Camera</string>
+    <string name="xd_screen_type_summary">IPS LCD FHD+ 5.99 Screen</string>
+
 </resources>

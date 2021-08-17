@@ -62,11 +62,11 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 #KERNEL_TOOLCHAIN := /mnt/gcc/bin
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
-TARGET_KERNEL_ADDITIONAL_FLAGS := \
-   HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+#TARGET_KERNEL_CLANG_VERSION := proton
+#TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+#TARGET_KERNEL_ADDITIONAL_FLAGS := \
+#   HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
@@ -150,7 +150,7 @@ TARGET_USES_INTERACTION_BOOST := true
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # SELinux
-#SELINUX_IGNORE_NEVERALLOWS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
