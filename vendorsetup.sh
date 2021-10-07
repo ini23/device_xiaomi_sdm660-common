@@ -7,6 +7,8 @@ rm -rf frameworks/base
 rm -rf packages/apps/Settings
 rm -rf frameworks/av
 #rm -rf kernel/xiaomi/sdm660
+rm -rf packages/services/Telecomm
+
 # git clone
 git clone https://github.com/NusantaraProject-ROM/android_packages_apps_Gallery2 -b 11 packages/apps/Gallery2
 git clone https://github.com/SakilMondal/hardware_qcom-caf_msm8998_display hardware/qcom-caf/msm8998/display
@@ -16,7 +18,8 @@ git clone https://github.com/dotMod/android_frameworks_base -b dot11.0 framework
 git clone https://github.com/dotMod/android_packages_apps_Settings -b dot11.0 packages/apps/Settings
 git clone https://github.com/dotMod/android_frameworks_av-1 -b dot11 frameworks/av
 git clone https://github.com/11-whyred-new/MiuiCamera -b cr-9.0 vendor/MiuiCamera
-git clone https://github.com/predator112/android_kernel_xiaomi_sdm660_southwest -b 11.0-eas-wifi-r kernel/xiaomi/sdm660
+#git clone https://github.com/predator112/android_kernel_xiaomi_sdm660_southwest -b 11.0-eas-wifi-r kernel/xiaomi/sdm660
+git clone https://github.com/dotMod/android_packages_services_Telecomm -b dot11 packages/services/Telecomm
 
 #rm -rf external/tinycompress
 git clone https://github.com/pkm774/external_tinycompress -b ks-aosp.lnx.3.0.r15-rel external/tinycompress
