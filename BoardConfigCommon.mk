@@ -46,9 +46,6 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 #KERNEL_TOOLCHAIN := /mnt/gcc/bin
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := predator
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
