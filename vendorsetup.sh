@@ -1,13 +1,13 @@
 # rm -rf 
-rm -rf packages/apps/Gallery2
-rm -rf hardware/qcom-caf/msm8998/display
-rm -rf hardware/qcom-caf/msm8998/media
-rm -rf hardware/qcom-caf/msm8998/audio
-rm -rf frameworks/base
-rm -rf packages/apps/Settings
-rm -rf frameworks/av
+#rm -rf packages/apps/Gallery2
+#rm -rf hardware/qcom-caf/msm8998/display
+#rm -rf hardware/qcom-caf/msm8998/media
+#rm -rf hardware/qcom-caf/msm8998/audio
+#rm -rf frameworks/base
+#rm -rf packages/apps/Settings
+#rm -rf frameworks/av
 #rm -rf kernel/xiaomi/sdm660
-rm -rf packages/services/Telecomm
+#rm -rf packages/services/Telecomm
 
 # git clone
 git clone https://github.com/NusantaraProject-ROM/android_packages_apps_Gallery2 -b 11 packages/apps/Gallery2
