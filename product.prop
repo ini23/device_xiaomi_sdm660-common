@@ -32,3 +32,9 @@ ro.com.google.ime.theme_id=5
 ro.com.google.ime.bs_theme=true
 ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
 
+# Graphics Optimizations
+debug.egl.force_msaa=1
+debug.egl.hw=1
+debug.hwui.renderer=skiagl
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.supports_background_blur=1 

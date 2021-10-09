@@ -104,13 +104,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.bluetooth.soc=cherokee
 
-# Blur
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.sf.blurs_are_expansive=1 \
-    ro.surface_flinger.supports_backgroud_blur=1 \
-    debug.sf.disable_backpressure=1 \
-    persist.sys.sf.disable_blurs=1
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
@@ -168,6 +161,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.hw=1 \
+    debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=0 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.latch_unsignaled=1 \
@@ -338,3 +332,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.googfd.enable=1 \
     persist.camera.logical.default=1 \
     persist.camera.gzoom.at=0
+
+# Additional props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.cgroup_follow.enable=true \
+    persist.vendor.qti.inputopts.enable=true \
+    persist.vendor.qti.inputopts.movetouchslop=0.6 \
+    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# Blurs
+    ro.surface_flinger.supports_background_blur=1 \
+    ro.sf.blurs_are_expensive=1 \
+    persist.sys.sf.disable_blurs=1
